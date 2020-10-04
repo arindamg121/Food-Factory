@@ -1,0 +1,139 @@
+body{
+	margin:auto;
+	background-repeat: no-repeat;
+	background-size: 100% 1024px;
+}
+
+.boxed{
+	border:1px solid green;
+	width: 800px;
+	height: 600px; 
+	position: center;
+	margin-top: 150px; 
+	margin-left:20%; 
+	box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.upper{
+	background-color:#e6e6e6;
+	height:100px;
+	margin-top:-30px;
+	
+}
+
+h1{
+	padding-top:30px;
+	font-size:45px;
+	padding-left:15px;
+}
+
+img{
+	height:55px;
+	margin-top:-80px;
+	margin-left:500px;
+}
+
+.lower{
+font-size:20px;
+margin-top:-40px;
+padding-left:18px;
+font-weight:bold;
+}
+
+select[name="CardType"]{
+	font-size: 24px;
+	padding-left:18px;
+	margin-top:5px;
+	height: 45px;
+	width: 350px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+label[name="cno"]{
+	margin-left:290px;
+}
+
+input{
+	font-size: 24px;
+	margin-left:35px;
+	padding-left:35px;
+	margin-top:5px;
+	height: 45px;
+	width: 350px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+select[name="ExpiryDateMonth"]{
+	font-size: 22px;
+	padding-left:10px;
+	margin-top:5px;
+	height: 45px;
+	width: 165px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+select[name="ExpiryDateYear"]{
+	font-size: 22px;
+	padding-left:10px;
+	margin-top:5px;
+	margin-left:15px;
+	height: 45px;
+	width: 165px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+input[name="CardHolder"]{
+	margin-left:0px;
+}
+
+label[name="email"]{
+	margin-left:270px;
+}
+
+input[name="Amount"]{
+	padding-left:15px;
+	margin-left:5px;
+	width:100px;
+}
+
+label[name="t&c"]{
+	margin-left:20px;
+	margin-right:50px;
+	font-size:16px;
+}
+
+input[type="checkbox"]{
+	margin-left:-42px;
+	width:15px;
+	height:16px;
+}
+
+input[type="reset"]{
+	margin-left:35px;
+	margin-top:10px;
+	background-color:#034f84;
+	color:white;
+	padding-left:8px;
+	font-weight:bold;
+	width:150px;
+	height:45px;
+}
+
+input[type="submit"]{
+	margin-left:185px;
+	margin-top:10px;
+	background-color:#034f84;
+	color:white;
+	padding-left:10px;
+	font-weight:bold;
+	width:165px;
+	height:45px;
+}

@@ -1,0 +1,73 @@
+body{
+	padding-top:100px;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 1024px;
+}
+ 
+.container{
+	width: 500px;
+	height: 450px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 20px;
+}
+ 
+.container img{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+ 
+input[type="text"],input[type="password"]{
+	border-radius:25px;
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 45px;
+}
+.form-input::before{
+content:"\f007";
+font-family:"FontAwesome";
+padding-left:15px;
+padding-top:35px;
+position:absolute;
+font-size:35px;
+color:#2980b9;
+}
+
+.form-input:nth-child(2)::before{
+content:"\f023";
+}
+ 
+.form_checkbox{
+	margin-top:-10px;
+	margin-bottom:25px;
+	margin-right:35px;
+	color:f5f6fa;
+	font-size:18px;
+}
+
+.btn-login{
+border-radius:25px;
+padding:15px 35px;
+border:10px;
+background-color:#27ae60;
+color:white;
+font-size:22px;
+}
+
+.reg_link{
+	
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-right:35px;
+	color:f5f6fa;
+	font-size:18px;
+}
+
+

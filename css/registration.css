@@ -1,0 +1,183 @@
+body{
+	margin: 0 auto;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 1100px;
+}
+
+.container{
+	width: 900px;
+	height: 950px;
+	text-align: center;
+	margin: 0 auto;
+	background-image:url("../images/background1.jpg");
+	background-size: 100% 1100px;
+	margin-top:50px;
+	margin-left:250px;
+	opacity: 0.9;
+}
+
+h1{
+font-size:45;
+text-align:left;
+margin-left:50px;
+color:white;
+}
+
+h2{
+font-size:20;
+text-align:left;
+margin-top:-50px;
+margin-left:50px;
+color:white;
+font-style:italic;
+}
+
+.signin {
+color:white;
+text-align:right;
+margin-right:30px;
+margin-top:-40px;
+font-size:18;
+font-weight:bold;
+}
+
+.signin input{
+font-size:18;
+color:#e67300;
+font-weight:bold;
+opacity: 1.0;
+border-radius:8px;
+}
+
+input[type="text"],input[type="date"],input[type="password"]{
+	font-size: 18px;
+	padding-left:25px;
+	margin-top:5px;
+	height: 45px;
+	width: 300px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+input[name="address"]{
+font-size: 18px;
+	padding-left:25px;
+	margin-top:5px;
+	height: 45px;
+	width: 420px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+select[name="location"]{
+	font-size: 15px;
+	margin-top:5px;
+	height: 45px;
+	width: 180px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+
+.form-input1{
+text-align:left;
+margin-left:90px;
+margin-top:40px;
+color:white;
+font-size:20;
+}
+
+.form-input2{
+text-align:left;
+margin-left:450px;
+margin-top:-558px;
+color:white;
+font-size:20;
+}
+
+input[type="radio"]{
+	margin-top:20px;
+	height:18px;
+	width: 18px;
+	margin-bottom: 30px;
+}
+
+input[type="email"]{
+	font-size: 18px;
+	padding-left:25px;
+	margin-top:8px;
+	height: 45px;
+	width: 300px;
+	margin-bottom: 18px;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+input[name="zipcode"]{
+	font-size: 18px;
+	margin-left:120px;
+	margin-top:5px;
+	height: 45px;
+	width: 180px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+label[name="city"]{
+margin-left:-115px;
+}
+
+select[name="city"]{
+	font-size: 18px;
+	margin-left:-120px;
+	margin-top:5px;
+	height: 45px;
+	width: 180px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+label[name="state"]{
+margin-left:195px;
+}
+
+select[name="state"]{
+	font-size: 18px;
+	margin-left:60px;
+	margin-top:-65px;
+	height: 45px;
+	width: 180px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius:5px;
+}
+
+hr{
+margin-left:-370px;
+}
+
+.g-recaptcha{
+margin-left:-350px;
+}
+
+input[type="checkbox"]{
+	height:18px;
+	width: 18px;	
+	margin-left:-320px;
+	font-size:20px;
+}
+
+input[type="submit"]{
+margin-top:20px;
+margin-left:-320px;
+font-size:32px;
+border-radius:8px;
+color:#b36b00;
+font-weight:bold;
+}

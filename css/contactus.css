@@ -1,0 +1,104 @@
+body {
+padding: 0;
+margin:0;
+}
+
+.container{
+	
+	background-color:#f5f7fa;
+	padding-left:20px;
+	text-align: left;
+	margin-left:10%;
+	margin-top:10px;
+	border:1px solid #ddd;
+	overflow-y:auto;
+	height:680px;
+	width:82%;
+	padding-right:10px;
+}
+
+.subcontainer{
+	position:absolute;
+	height:485px;
+	width:20%;
+	background-color:#e3e6ea;
+	margin-left:70.5%;
+	margin-top:-600px;
+	padding-top:20px;
+	padding-left:30px;
+	padding-bottom:0px;
+	
+}
+p{
+	
+}
+.tag{
+	color:rgb(233,87,63);
+	font-size:20px ;
+}
+.data{
+	color:#4f4f51;
+	font-size:120%;
+}
+P{
+	margin-top:-25px;
+	font-style:Arial;
+	font-size:20px;
+	padding-right:30%;
+	color:#4f4f51;
+	padding-left:1%
+}
+input{
+	height: 45px;
+	width: 29.5%;
+	border-radius:6px;
+	background-color: #fff;
+	font-size: 24px;
+	padding-left:18px;
+	margin-top:5px;
+	margin-left:5%;
+	margin-bottom:10px;
+}
+.fname{
+margin-left:5.5%;
+font-size: 125%;
+}
+
+.lname{
+margin-left:28%;
+font-size: 125%;
+}
+
+.mobile{
+margin-left:5.5%;
+font-size:  102%;
+}
+.email{
+margin-left:25.5%;
+font-size:  102%;
+}
+.message{
+margin-left:5.5%;
+font-size:  105%;
+}
+
+input[name="lname"]{
+margin-left:5%;
+}
+textarea{
+	margin-left:5%;
+	border-radius:6px;
+	background-color: #fff;
+	font-size: 24px;
+	padding-left:18px;
+	width:64%;
+	height:120px;
+}
+
+input[type="submit"]{
+width:63%;
+height:50px;
+background-color:rgb(233,87,63);
+color:white;
+font-size:25px;
+}

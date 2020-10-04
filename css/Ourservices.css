@@ -1,0 +1,27 @@
+
+.container1{
+	width: 96%;
+	height: 280px;
+	text-align:center;
+	background-color: #24292d;
+} 
+
+
+.txt{
+	text-align: center;
+	margin-top:2%;
+	animation:tasty 1s ease-out 1 normal;
+	font-family:Arial;
+	color:#ff0;
+	font-size:35px;
+	font-weight:bold;
+}
+	
+@keyframes tasty{
+	0%{ 
+		transform:scale(-0.5); 
+	}
+	100%{ 
+		transform:scale(1.0); 
+	}
+}

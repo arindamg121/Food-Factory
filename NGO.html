@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" a href="css/NGO.css">
+</head>
+<body>
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h2 class="FeedingIndia">Feeding <span style="color:#656d78;">India</h2>
+    <p style="">Join us to help Feed india</p>
+	<hr size="5px" color="black" >
+  </div>
+  <div class="row">
+    <div class="column"style="padding-left:3%;padding-top:2%;">
+      <img src="images/NGO/pic1.jpg" style="height:300px;width:94.5%">      
+	  <img src="images/NGO/pic2.jpg" style="height:250px;width:47%">
+	  <img src="images/NGO/pic4.jpg" style="height:250px;width:47%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name*</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        <label for="lname">Last Name*</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        <label for="mnumber">Mobile Number*</label>
+        <input type="text" id="mnumber" name="mobilenumber" placeholder="Your mobile number.." required>
+        <label for="amnumber">Alternate Mobile Number*</label>
+        <input type="text" id="amnumber" name="amobilenumber" placeholder="Your Alternate mobile number.." required>
+           <label for="email">Email Id*</label>
+      <input type="text" id="email" name="emailid" placeholder="Your Email Id.." required>
+        <label for="subject">Quantity of Food</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+    
+      
+<script type="text/javascript">
+
+function confSubmit(form) {
+if (confirm("              Thank You for Donating with Us!\n                Our team will contact you soon")) {
+if(confirm("Redirecting to Home Page!!")){
+window.location.href='Slideshow.html';
+}}
+
+else {
+alert("You decided to not submit the form!");
+}
+}
+</script>
+</head>
+
+<form action="ngofinal.html" method="POST">
+<!--Put form elements here-->
+
+<input type="submit" onClick="confSubmit(this.form);" value="Submit">
+</form>
+
+      
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

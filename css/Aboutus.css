@@ -1,0 +1,53 @@
+
+.subcontainer{
+	position:relative;
+	background-color: #f5f7fa;
+	text-align: left;
+	margin-left:52.5%;
+	margin-top:-425px;
+	border: 1px solid #ddd;
+	overflow-y:auto;
+	max-height:390px;
+	max-width:500px;
+	margin-right:10%;
+	animation:fade 1s linear 1 normal;
+}
+@keyframes fade{
+	0%{ 
+		margin-left:1280px; 
+	}
+	50%{ 
+		margin-right:10px; 
+	}
+}
+
+h4{
+	font-family:Times New Roman;
+	line-height:1.1;
+	color:rgb(233,87,63);
+	margin-top:18px;
+	margin-bottom:6px;
+	font-size:20px;
+}
+
+p{
+	margin-bottom:15px;
+	font-family:serif;
+	line-height:20px;
+	font-size:100%;
+	color:grey;
+}
+
+.img{
+	margin-top:100px;
+	padding-left:20%;
+	animation:fade1 1s linear 1 normal;
+}
+@keyframes fade1{
+	0%{ 
+		margin-left:-500px; 
+	}
+	50%{ 
+		margin-right:10px; 
+	}
+}
